@@ -1,0 +1,30 @@
+.title{
+    margin: 10px;
+    padding: 10px;
+}
+.jacket,.sneakers,.jeans,.cap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    margin: 10px;
+}
+.total_price{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 10px;
+    margin: 10px;
+}
+.price,.all_price{
+    color: rgb(3, 3, 157);
+    font-weight: 600;
+}
+.discount_button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+}
+.total_price-text{font-weight: 800;}
